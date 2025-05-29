@@ -1,0 +1,59 @@
+:root{
+    --lime:#e3e800;
+    font-family: "Domine", serif;
+}
+body, header, article, footer, section, figure, div, nav, h1, h2, h3 {
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-size:16px;
+    font-weight:100;
+}
+body{
+    background-image:url("../images/background1cropped.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+header {
+
+    background-color:var(--lime);
+}
+header img{
+    width:480px;
+
+}
+nav ul{
+    list-style:none;
+}
+nav a {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size:2em;
+    text-decoration:none;
+    color:black;
+}
+
+article {
+    background-color:rgba(227,232,0,0.6)
+}
+h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size:5em;
+}
+.intro{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size:1.5em;
+    
+}
+h2{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-size:1.5em;
+    
+}
+
+
