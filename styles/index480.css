@@ -10,10 +10,12 @@ body, header, article, footer, section, figure, div, nav, h1, h2, ul, h3, p {
     font-weight:100;
 }
 body{
-    background-image:url("../images/background1-480.jpg");
+    background-image:url("../images/background1-1280x960.jpg");
     background-position:center;
     background-repeat:no-repeat;
     background-size:auto;
+    background-attachment:fixed;
+    background-position:left;
 
 }
 header {
@@ -39,7 +41,7 @@ nav li:hover {
     background-color:rgba(0,0,1,0.5);
 }
 nav a:active {
-    font-size:5em;
+    font-size:3em;
     color:white;
 }
 nav li {
@@ -55,24 +57,21 @@ main {
 h1 {
     padding-top:10px;
     border-top:solid 10px;
+    margin:0px 2px;
     font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
     font-size:7em;
     letter-spacing:1px;
-    line-height:58%;
+    line-height:60%;
 }
-.h1 {
-    
-    padding-left:-10px;
-}
+
 .h1 p {
     font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
     font-size:7em;
-    letter-spacing:-10px;
+    letter-spacing:-9%;
     line-height:58%;
-    
-    
+    padding-left:1px;
 }
 
 .intro p{
@@ -89,9 +88,6 @@ h2{
 }
 .quote {
     margin-bottom:10px;
-}
-.quote p{
-    font-size:1em;
 }
 .shell {
     display:grid;
