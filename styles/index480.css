@@ -2,7 +2,7 @@
     --lime:#e3e800;
     font-family: "Domine", serif;
 }
-body, header, article, footer, section, figure, div, nav, h1, h2, h3 {
+body, header, article, footer, section, figure, div, nav, h1, h2, ul, h3, p {
     padding:0px;
     margin:0px;
     box-sizing:border-box;
@@ -10,50 +10,106 @@ body, header, article, footer, section, figure, div, nav, h1, h2, h3 {
     font-weight:100;
 }
 body{
-    background-image:url("../images/background1cropped.jpg");
+    background-image:url("../images/background1-480.jpg");
     background-position:center;
     background-repeat:no-repeat;
-    background-size:cover;
-    
+    background-size:auto;
+
 }
 header {
 
     background-color:var(--lime);
 }
 header img{
-    width:480px;
+    width:100vw;
 
 }
 nav ul{
     list-style:none;
+    padding-left:6px;
 }
 nav a {
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
     font-size:2em;
     text-decoration:none;
     color:black;
 }
-
-article {
-    background-color:rgba(227,232,0,0.6)
+nav li:hover {
+    background-color:rgba(0,0,1,0.5);
 }
-h1 {
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 100;
+nav a:active {
     font-size:5em;
+    color:white;
 }
-.intro{
-    font-family: "Barlow Condensed", sans-serif;
+nav li {
+    border-top:solid 1px;
+}
+main {
+    background-color:rgba(227,232,0,0.6);
+}
+.home {
+    padding:10px;
+}
+
+h1 {
+    padding-top:10px;
+    border-top:solid 10px;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 100;
+    font-size:7em;
+    letter-spacing:1px;
+    line-height:58%;
+}
+.h1 {
+    
+    padding-left:-10px;
+}
+.h1 p {
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 100;
+    font-size:7em;
+    letter-spacing:-10px;
+    line-height:58%;
+    
+    
+}
+
+.intro p{
+    font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
     font-size:1.5em;
-    
+    margin-bottom:10px;
+    border-top:1px solid;
 }
 h2{
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 100;
+    font-family: "Alumni Sans", sans-serif;
+    font-weight:400;
     font-size:1.5em;
-    
+}
+.quote {
+    margin-bottom:10px;
+}
+.quote p{
+    font-size:1em;
+}
+.shell {
+    display:grid;
+    grid-template-columns:auto auto;
+}
+.shell p {
+    font-size:.8em;
+}
+footer {
+    color:var(--lime);
+    background-color:black;
+    height:50px;
+}
+footer p {
+    font-family: "Alumni Sans", sans-serif;
+    font-weight:600;
+    font-size:1.5em;
+    padding:10px;
 }
 
 
