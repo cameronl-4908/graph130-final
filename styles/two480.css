@@ -1,0 +1,88 @@
+:root{
+    --lime:#e3e800;
+    font-family: "Domine", serif;
+}
+body, header, article, footer, section, figure, div, nav, h1, h2, ul, h3, p {
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-size:16px;
+    font-weight:100;
+}
+body{
+    background-image:url("../images/background2-1280x960.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:auto;
+    background-attachment:fixed;
+    background-position:center;
+
+}
+header {
+
+    background-color:var(--lime);
+}
+header img{
+    width:100vw;
+
+}
+nav {
+    border-bottom:solid 8px;
+}
+nav ul{
+    list-style:none;
+    padding:0px 10px;
+    
+}
+nav a {
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 100;
+    font-size:2em;
+    text-decoration:none;
+    color:black;
+}
+nav li:hover {
+    background-color:rgba(0,0,1,0.5);
+}
+nav a:active {
+    font-size:3em;
+    color:white;
+}
+nav li {
+    border-top:solid 1px;
+}
+main {
+    background-color:rgba(255,255,255,0.75);
+    padding:10px;
+}
+article {
+    display:grid;
+    grid-template-columns:auto auto;
+
+}
+p {
+    font-size:.75em;
+}
+.left {
+    margin-right:10px;
+}
+figcaption {
+    font-size:.5em;
+    padding-bottom:10px;
+}
+h2{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight:400;
+    font-size:1.5em;
+}
+footer {
+    color:var(--lime);
+    background-color:black;
+    height:50px;
+}
+footer p {
+    font-family: "Alumni Sans", sans-serif;
+    font-weight:600;
+    font-size:1.5em;
+    padding:6px;
+}

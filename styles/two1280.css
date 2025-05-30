@@ -1,0 +1,12 @@
+body {
+    background-image: url("../images/background2.jpg");
+}
+p {
+    font-size:1.25em;
+}
+h2 {
+    font-size:2.5em;
+}
+figcaption {
+    font-size:1em;
+}
