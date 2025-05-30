@@ -1,0 +1,31 @@
+nav ul {
+    display:grid;
+    grid-template-columns:auto auto auto;
+    border-top:1px solid;
+    margin:0px 5px;
+}
+
+nav li {
+    text-align: center;
+    border:none;
+}
+p {
+    font-size:1em;
+}
+h2{
+    font-size:1.75em;
+}
+figcaption {
+    border-bottom:1px solid;
+    padding-bottom:10px;
+}
+figure {
+    font-size:.75em;
+    width:100%;
+}
+main {
+    margin:0px 10%;
+}
+.spec p {
+    font-size:1em;
+}

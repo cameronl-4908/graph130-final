@@ -7,7 +7,7 @@ body, header, article, footer, section, figure, div, nav, h1, h2, ul, h3, p {
     margin:0px;
     box-sizing:border-box;
     font-size:16px;
-    font-weight:100;
+    font-weight:300;
 }
 body{
     background-image:url("../images/background1-1280x960.jpg");
@@ -44,7 +44,7 @@ nav a {
 nav li:hover {
     background-color:rgba(0,0,1,0.5);
 }
-nav a:active {
+nav li:active {
     font-size:3em;
     color:white;
 }
@@ -53,25 +53,26 @@ nav li {
 }
 main {
     background-color:rgba(227,232,0,0.6);
-    
+    padding-top:25px;
+}
+.h1 {
+    padding-left:3px;
 }
 .home {
     padding:10px;
+    
 }
 
 h1 {
-    padding-top:10px;
-    
     margin:0px 2px;
     font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
     font-size:7em;
     letter-spacing:1px;
     line-height:60%;
+    
 }
-.h1 {
-    padding-bottom:7px;
-}
+
 .h1 p {
     font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
@@ -111,12 +112,22 @@ footer {
     color:var(--lime);
     background-color:black;
     height:50px;
+    padding:10px;
+    
+    /* display:grid;
+    grid-template-columns: auto auto; */
 }
 footer p {
     font-family: "Alumni Sans", sans-serif;
-    font-weight:600;
+    font-weight:400;
     font-size:1.5em;
-    padding:10px;
+    padding-top:9px;
+    display:inline;
+    
 }
+.evcc {
+    float:right;
+    font-size:1em;
 
+}
 
