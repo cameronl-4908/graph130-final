@@ -45,9 +45,12 @@ nav a:active {
 nav li {
     border-top:solid 1px;
 }
+
 img {
     width:100%;
 }
+
+
 main {
     padding:10px;
 }
