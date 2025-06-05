@@ -24,6 +24,10 @@ nav li {
     .col2, .img1 {
         padding-right:10px;
     }
+    .looking {
+    border-style:none;
+    margin-top:0;
+    }
 }
 
 

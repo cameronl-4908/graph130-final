@@ -63,6 +63,7 @@ article {
 }
 p {
     font-size:1em;
+    
 }
 .left {
     margin-right:10px;
@@ -74,10 +75,13 @@ figcaption {
     border-bottom:1px solid;
 }
 h2{
+    padding-top:5px;
     font-family: "Alumni Sans", sans-serif;
     font-weight:400;
     font-size:1.5em;
     text-align: center;
+    border-top:1px solid black; 
+    margin-top:5px;
 }
 footer {
     color:var(--lime);
@@ -85,8 +89,7 @@ footer {
     height:50px;
     padding:10px;
     
-    /* display:grid;
-    grid-template-columns: auto auto; */
+     
 }
 footer p {
     font-family: "Alumni Sans", sans-serif;
