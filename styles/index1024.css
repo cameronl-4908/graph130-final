@@ -1,7 +1,9 @@
 body {
     font-size:1.5em;
+    background-size:cover;
     
 }
+
 
 nav ul {
     display:grid;
