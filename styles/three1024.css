@@ -11,9 +11,10 @@ nav li {
 }
 
 main {
-    margin:10px 10%;
+    margin:10px 5%;
 }
-article {
+@media screen and (min-width:700px) {
+    article {
     display:grid;
     grid-template-areas:
     "img img side"
@@ -21,11 +22,13 @@ article {
     "txt txt2 side"
     "txt txt2 side"
     "txt txt2 side";
+    }
+    .col2, .img1 {
+        padding-right:10px;
+    }
 }
-.img1 {
-    
-    padding-right:10px;
-}
+
+
 h2 {
     font-size:1.75em;
 } 

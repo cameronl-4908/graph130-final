@@ -13,7 +13,7 @@ body{
     background-image:url("../images/background1-1280x960.jpg");
     background-position:center;
     background-repeat:no-repeat;
-    background-size:auto;
+    background-size:cover;
     background-attachment:fixed;
     background-position:left;
 
@@ -52,11 +52,13 @@ nav li {
     border-top:solid 1px;
 }
 main {
-    background-color:rgba(227,232,0,0.6);
+    background-color:rgba(227,232,0,0.75);
     padding-top:25px;
+    
 }
 .h1 {
     padding-left:3px;
+    
 }
 .home {
     padding:10px;
@@ -104,9 +106,12 @@ h2{
     grid-template-columns:auto auto;
     padding:10px 0px;
 }
+
 .shell p {
-    
-    font-size:.8em;
+    font-size:1em;
+}
+.leftshell {
+    padding-right:5px;
 }
 footer {
     color:var(--lime);
@@ -114,8 +119,7 @@ footer {
     height:50px;
     padding:10px;
     
-    /* display:grid;
-    grid-template-columns: auto auto; */
+    
 }
 footer p {
     font-family: "Alumni Sans", sans-serif;
