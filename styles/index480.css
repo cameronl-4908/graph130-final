@@ -16,7 +16,6 @@ body{
     background-size:cover;
     background-attachment:fixed;
     background-position:left;
-
 }
 header {
 
@@ -90,6 +89,7 @@ h1 {
     font-size:1.5em;
     padding:10px 0px;
     border-top:1px solid;
+    
 }
 h2{
     font-family: "Alumni Sans", sans-serif;
@@ -99,12 +99,14 @@ h2{
 .quote {
     padding:10px 0px;
     border-top:1px solid;
+    
 }
 .shell {
     border-top:1px solid;
     display:grid;
     grid-template-columns:auto auto;
     padding:10px 0px;
+    
 }
 
 .shell p {

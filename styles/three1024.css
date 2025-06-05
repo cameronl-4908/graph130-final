@@ -10,9 +10,7 @@ nav li {
     border:none;
 }
 
-main {
-    margin:10px 5%;
-}
+
 @media screen and (min-width:700px) {
     article {
     display:grid;

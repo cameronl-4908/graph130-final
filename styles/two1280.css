@@ -1,6 +1,9 @@
 body {
     background-image: url("../images/background2.jpg");
 }
+main {
+    margin:0px 15%;
+}
 p {
     font-size:1.25em;
 }
