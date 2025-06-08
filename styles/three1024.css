@@ -22,12 +22,12 @@ nav li {
     "txt txt2 side";
     }
     .col2, .img1 {
-        padding-right:10px;
+        margin-right:5px;
     }
-    .looking {
-    border-style:none;
-    margin-top:0;
+    .col3 {
+        margin-left:5px;
     }
+    
 }
 
 

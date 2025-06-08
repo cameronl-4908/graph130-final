@@ -52,22 +52,22 @@ nav li {
 }
 main {
     background-color:rgba(227,232,0,0.75);
-    padding-top:25px;
-    
-}
-.h1 {
-    padding-left:3px;
-    
-}
-.home {
     padding:10px;
     
 }
 
+.home {
+    padding-top:10px;
+    
+}
+.h1 {
+    margin-left:-5px;
+}
+
 h1 {
-    margin:0px 2px;
+    
     font-family: "Alumni Sans", sans-serif;
-    font-weight: 100;
+    font-weight:100;
     font-size:7em;
     letter-spacing:1px;
     line-height:60%;
@@ -78,9 +78,10 @@ h1 {
     font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
     font-size:7em;
-    letter-spacing:-9%;
+    letter-spacing:-8%;
+    margin-left:-1px;
     line-height:58%;
-    padding-left:1px;
+    
 }
 
 .intro p{
@@ -99,8 +100,9 @@ h2{
 .quote {
     padding:10px 0px;
     border-top:1px solid;
-    
+
 }
+
 .shell {
     border-top:1px solid;
     display:grid;
@@ -110,7 +112,10 @@ h2{
 }
 
 .shell p {
-    font-size:1em;
+    font-size:.8em;
+}
+.rightshell {
+    padding-left:5px;
 }
 .leftshell {
     padding-right:5px;

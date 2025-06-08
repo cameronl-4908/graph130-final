@@ -73,25 +73,21 @@ article {
 }
 .col1 {
     grid-area:txt;
-    margin-right:10px;
+    margin-right:5px
 }
-.col1 h2 {
-    border-style:none;
-    margin-top:0;
-    
-}
-
 .col2 {
     grid-area:txt2;
+    margin-right:5px
 
 }
 .col3 {
     grid-area:side;
+    margin-left:5px
 }
 figcaption {
+    padding:5px 0;
     margin-bottom:10px;
     font-size:.75em;
-    padding-bottom:10px;
     border-bottom:1px solid;
 }
 h2{
@@ -99,8 +95,6 @@ h2{
     font-weight:400;
     font-size:1.5em;
     text-align: center;
-    border-top:1px black solid;
-    margin-top:10px;
 }
 footer {
     color:var(--lime);

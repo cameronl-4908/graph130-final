@@ -86,15 +86,15 @@ p {
     font-size:.75em;
 }
 figure {
-    font-size:.8em;
-    padding-bottom:10px;
+    font-size:.75em;
+    margin-bottom:10px;
 }
 figcaption {
-    padding:5px;
+    padding:5px 0;
     border-bottom:1px black solid;
 }
 h2{
-    padding:2px;
+    padding:5px;
     font-family: "Alumni Sans", sans-serif;
     font-weight:400;
     font-size:1.5em;
@@ -109,7 +109,7 @@ h2{
 }
 .spec p{
     font-family: "Alumni Sans", sans-serif;
-    font-size:1em;
+    font-size:1.25em;
 }
 .specp {
     padding:5px;

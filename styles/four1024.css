@@ -15,10 +15,6 @@ p {
 h2{
     font-size:1.75em;
 }
-figcaption {
-    border-bottom:1px solid;
-    padding-bottom:10px;
-}
 figure {
     font-size:.75em;
     width:100%;
