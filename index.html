@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Domine:wght@400..700&display=swap" rel="stylesheet">
     <!-- styles -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="styles/index480.css" rel="stylesheet"/>
     <link href="styles/index1024.css" rel="stylesheet" media="screen and (min-width:481px)"/>
     <link href="styles/index1280.css" rel="stylesheet" media="screen and (min-width:1025px)"/>
@@ -16,7 +17,7 @@
 </head>
 <body>
     <main class="indexmain">
-        <header>
+        <header data-aos="fade-up">
             <img src="images/header2000.jpg" alt="Beach Cruiser Header">
             <nav>
                 <ul>
@@ -30,21 +31,22 @@
     
     
         <article>
-            <div class="h1">
+            <div class="h1" data-aos="fade-up">
                 <h1><b>BEACH</b></h1>
                 <p>CRUISER</p>
             </div>
             <div class="home">
-                <section class="intro">
+                <section class="intro" data-aos="fade-up">
                     <p>No motor, no glass, no gauges, no handles, not even a shifter... <b>Just two seats in a rolling shell</b>. That's how Gary Consalvi found this 1965 11-Window in Lake Elsinore, California. <b>Now five years later</b>, his retirement project has produced a <b>top-notch resto-mod Beach Cruiser!</b></p>
                 </section>
-                <section class="quote">
+                <section class="quote" data-aos="fade-up">
                     <h2><b>"I HAD A DREAM TO CREATE A BEAUTIFUL SOUTHERN CALIFORNIA</b></h2>
                     <p>Beach Cruiser based on a VW Split Window Bus, and do it as a tribute build to the explosion of the surf scene in the mid-1960s - I was very much a part of it in Hungtington Beach,” Gary explains. Now living in Phoenix, Arizona, he has made that dream come to life.</p>
                 </section>
-                <section class="shell">
+                <section class="shell" data-aos="fade-up">
                     <p class="leftshell">What started as a shell of a Bus spent most of its life in the southwest desert, so it had very little rust, and needed minimal bodywork. Having been in the automotive industry for years working with icon Carrol Shelby, Gary knew a body like this was the perfect candidate</p>
                     <p class="rightshell">for the project. Over the next five years, the barebones Bus would evolve into the mean machine we see today. Without much need for body work, more time could be put into the plan for paint, engine, transmission, suspension, and more interior details than we could count.</p>
+                </section>
             </div>
         </article>
         
@@ -53,5 +55,9 @@
             <p class="evcc">Cameron Larsh - EVCC - Graph 130 Final</p>
         </footer>
     </main> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
