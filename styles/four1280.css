@@ -1,11 +1,7 @@
 main {
     margin:0px 15%;
 }
-.tiny {
-    display:grid;
-    grid-template-areas:
-    "interior gary";
-}
+
 h2 {
     font-size:2.5em;
 }

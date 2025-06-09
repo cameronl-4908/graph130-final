@@ -23,28 +23,28 @@ nav {
 }
 nav ul{
     list-style:none;
-    padding:0px 10px;
+    margin:5px 10px 10px 10px;
+    border-top:1px solid black;
     
+}
+nav li {
+    border-bottom:solid 1px;
 }
 nav a {
     font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
-    font-size:2em;
+    font-size:2.5em;
     text-decoration:none;
     color:black;
 }
-
 nav li:hover {
     background-color:rgba(0,0,1,0.5);
+    transition:.5s;
+    color:var(--lime);
     
 }
-nav a:active {
-    font-size:3em;
-    color:white;
-}
-nav li {
-    border-top:solid 1px;
-}
+
+
 
 img {
     width:100%;
@@ -56,6 +56,7 @@ main {
 }
 .tiny {
     grid-area:tiny;
+    margin-right:5px;
 }
 .imgspec {
     display:grid;
@@ -70,21 +71,18 @@ main {
 }
 .engine {
     grid-area:engine;
-    padding-right:10px;
+    margin-right:10px;
 }
 .interior {
     grid-area:interior;
-    padding-right:10px;
-
+    margin-right:5px;
 }
 .gary {
     grid-area:gary;
-    padding-right:10px;
+    margin-right:5px;
 }
 
-p {
-    font-size:.75em;
-}
+
 figure {
     font-size:.75em;
     margin-bottom:10px;
@@ -96,7 +94,7 @@ figcaption {
 h2{
     padding:5px;
     font-family: "Alumni Sans", sans-serif;
-    font-weight:400;
+    font-weight:600;
     font-size:1.5em;
     color:white;
     background-color:black;
@@ -106,10 +104,14 @@ h2{
     background-color:var(--lime);
     width:100%;
     grid-area:spec;
+    margin-left:5px;
 }
 .spec p{
     font-family: "Alumni Sans", sans-serif;
     font-size:1.25em;
+}
+.spec b {
+    font-weight:600;
 }
 .specp {
     padding:5px;

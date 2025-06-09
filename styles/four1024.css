@@ -9,6 +9,13 @@ nav li {
     text-align: center;
     border:none;
 }
+@media screen and (min-width:780px) {
+    .tiny {
+    display:grid;
+    grid-template-areas:
+    "interior gary";
+}
+}
 p {
     font-size:1em;
 }
@@ -18,8 +25,4 @@ h2{
 figure {
     font-size:.75em;
     width:100%;
-}
-
-.spec p {
-    font-size:1.25em;
 }

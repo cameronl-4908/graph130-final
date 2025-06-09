@@ -16,6 +16,7 @@ body{
     background-size:cover;
     background-attachment:fixed;
     background-position:left;
+    
 }
 header {
 
@@ -30,30 +31,34 @@ nav {
 }
 nav ul{
     list-style:none;
-    padding:0px 10px;
+    margin:5px 10px 10px 10px;
+    border-top:1px solid black;
     
+}
+nav li {
+    border-bottom:solid 1px;
 }
 nav a {
     font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
-    font-size:2em;
+    font-size:2.5em;
     text-decoration:none;
     color:black;
 }
+
+
 nav li:hover {
     background-color:rgba(0,0,1,0.5);
+    transition:.5s;
+    color:var(--lime);
 }
-nav li:active {
-    font-size:3em;
-    color:white;
-}
-nav li {
-    border-top:solid 1px;
-}
-main {
+
+
+
+article {
     background-color:rgba(227,232,0,0.75);
-    padding:10px;
     
+    padding:10px;
 }
 
 .home {
@@ -61,14 +66,16 @@ main {
     
 }
 .h1 {
-    margin-left:-5px;
+    margin-left:-10px;
+    padding:30px 0 10px 0;
 }
 
 h1 {
     
+    
     font-family: "Alumni Sans", sans-serif;
     font-weight:100;
-    font-size:7em;
+    font-size:10em;
     letter-spacing:1px;
     line-height:60%;
     
@@ -77,9 +84,9 @@ h1 {
 .h1 p {
     font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
-    font-size:7em;
+    font-size:10em;
     letter-spacing:-8%;
-    margin-left:-1px;
+    margin-left:-2px;
     line-height:58%;
     
 }
@@ -100,7 +107,6 @@ h2{
 .quote {
     padding:10px 0px;
     border-top:1px solid;
-
 }
 
 .shell {
@@ -112,7 +118,7 @@ h2{
 }
 
 .shell p {
-    font-size:.8em;
+    font-size:1em;
 }
 .rightshell {
     padding-left:5px;

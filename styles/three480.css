@@ -22,28 +22,27 @@ nav {
 }
 nav ul{
     list-style:none;
-    padding:0px 10px;
+    margin:5px 10px 10px 10px;
+    border-top:1px solid black;
     
+}
+nav li {
+    border-bottom:solid 1px;
 }
 nav a {
     font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
-    font-size:2em;
+    font-size:2.5em;
     text-decoration:none;
     color:black;
 }
 
 nav li:hover {
     background-color:rgba(0,0,1,0.5);
-    
+    transition:.5s;
+    color:#e3e800;
 }
-nav a:active {
-    font-size:3em;
-    color:white;
-}
-nav li {
-    border-top:solid 1px;
-}
+
 main {
     margin:10px;
 }
