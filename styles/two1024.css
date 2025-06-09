@@ -8,7 +8,19 @@ nav li {
     text-align: center;
     border:none;
 }
-
+@media screen and (min-width:780px) {
+    article {
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    .left {
+        margin-right:5px;
+        margin-bottom:5px;
+    }
+    .right {
+        margin-left:5px;
+    }
+}
 h2{
     font-size:1.75em;
 }

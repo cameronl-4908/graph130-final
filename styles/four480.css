@@ -51,19 +51,17 @@ img {
 }
 
 
+
 main {
     padding:10px;
 }
 .tiny {
     grid-area:tiny;
-    margin-right:5px;
 }
-.imgspec {
-    display:grid;
-    grid-template-areas:"small spec";
-}
+
 .smallimg {
     grid-area:small;
+    
 }
 .top {
     grid-area:top;
@@ -71,25 +69,27 @@ main {
 }
 .engine {
     grid-area:engine;
-    margin-right:10px;
+    
 }
 .interior {
     grid-area:interior;
-    margin-right:5px;
+    
 }
 .gary {
     grid-area:gary;
-    margin-right:5px;
+    
 }
 
 
 figure {
     font-size:.75em;
     margin-bottom:10px;
+    
+    border-bottom:1px black solid;
 }
 figcaption {
     padding:5px 0;
-    border-bottom:1px black solid;
+    
 }
 h2{
     padding:5px;
@@ -104,7 +104,7 @@ h2{
     background-color:var(--lime);
     width:100%;
     grid-area:spec;
-    margin-left:5px;
+
 }
 .spec p{
     font-family: "Alumni Sans", sans-serif;

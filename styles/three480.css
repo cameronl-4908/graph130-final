@@ -48,6 +48,7 @@ main {
 }
 p {
     font-size:1em;
+    text-indent:10px;
     
 }
 .figbig img{
@@ -58,13 +59,7 @@ p {
     width:100%;
 }
 
-article {
-    display:grid;
-    grid-template-areas:
-    "img img"
-    "txt side"
-    "txt2 side";
-}
+
 
 .img1 {
     grid-area:img;
@@ -72,20 +67,23 @@ article {
 }
 .col1 {
     grid-area:txt;
-    margin-right:5px
+    
 }
 .col2 {
     grid-area:txt2;
-    margin-right:5px
-
+    margin-bottom:5px;
 }
 .col3 {
     grid-area:side;
-    margin-left:5px
+    
+}
+figure {
+    margin-bottom:10px;
+    
 }
 figcaption {
     padding:5px 0;
-    margin-bottom:10px;
+    
     font-size:.75em;
     border-bottom:1px solid;
 }

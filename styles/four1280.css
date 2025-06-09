@@ -1,13 +1,22 @@
 main {
     margin:0px 15%;
 }
-
+.imgspec {
+    display:grid;
+    grid-template-areas:"small spec";
+}
+.smallimg {
+    margin-right:5px;
+}
+.spec {
+    margin-left:5px;
+}
 h2 {
-    font-size:2.5em;
+    font-size:2em;
 }
 figcaption {
-    font-size:1.25em
+    font-size:1em
 }
 .specp {
-    font-size:1.25em;
+    font-size:1em;
 }

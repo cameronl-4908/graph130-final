@@ -57,25 +57,24 @@ main {
     background-color:rgba(255,255,255,0.75);
     padding:10px;
 }
-article {
-    display:grid;
-    grid-template-columns:auto auto;
 
-}
 p {
     font-size:1em;
+    text-indent:10px;
     
 }
 .left {
-    margin-right:5px;
+    margin-bottom:5px;
 }
-.right {
-    margin-left:5px;
+
+figure {
+    margin-bottom:10px;
+    
 }
 figcaption {
     padding:5px 0;
     font-size:.75em;
-    margin-bottom:10px;
+    
     border-bottom:1px solid;
 }
 h2{
