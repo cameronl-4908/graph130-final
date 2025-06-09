@@ -53,7 +53,7 @@ nav li:hover {
 
 
 
-main {
+article {
     background-color:rgba(255,255,255,0.75);
     padding:10px;
 }
@@ -96,7 +96,7 @@ footer p {
     font-family: "Alumni Sans", sans-serif;
     font-weight:400;
     font-size:1.5em;
-    padding-top:9px;
+    padding-top:7px;
     display:inline;
     
 }
