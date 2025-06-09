@@ -53,7 +53,7 @@ img {
 
 
 article {
-    margin:10px;
+    padding:10px;
 }
 .tiny {
     grid-area:tiny;
