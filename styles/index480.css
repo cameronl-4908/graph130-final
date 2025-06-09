@@ -126,6 +126,7 @@ h2{
 }
 .leftshell {
     padding-right:5px;
+    text-indent:40px;
 }
 footer {
     color:var(--lime);
