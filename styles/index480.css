@@ -19,7 +19,6 @@ body{
     
 }
 header {
-
     background-color:var(--lime);
 }
 header img{
@@ -32,7 +31,7 @@ nav {
 nav ul{
     list-style:none;
     margin:5px 10px 10px 10px;
-    border-top:1px solid black;
+    border-top:black 1px solid;
     
 }
 nav li {
@@ -60,7 +59,6 @@ article {
     
     padding:10px;
 }
-
 .home {
     padding-top:10px;
     

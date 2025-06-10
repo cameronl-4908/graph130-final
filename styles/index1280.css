@@ -12,10 +12,7 @@ article {
 }
 .intro p {
     font-size:2em;
-} 
-h2 {
-    font-size:1.75em;
-} 
+} s
 .shell p {
     font-size:1em;
     
@@ -25,7 +22,7 @@ h2 {
 } 
 
 .h1 {
-    font-size:1.5rem;
+    font-size:1.5em;
 }
 
 
