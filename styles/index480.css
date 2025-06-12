@@ -63,29 +63,24 @@ article {
     padding-top:10px;
     
 }
-.h1 {
-    margin-left:-10px;
-    padding:30px 0 10px 0;
-}
+
 
 h1 {
-    
-    
+    margin-left:-10px;
+    padding:30px 0 10px 0;
     font-family: "Alumni Sans", sans-serif;
     font-weight:100;
     font-size:10em;
     letter-spacing:1px;
-    line-height:60%;
+    line-height:58%;
     
 }
 
-.h1 p {
+.cruz {
     font-family: "Alumni Sans", sans-serif;
     font-weight: 100;
-    font-size:10em;
-    letter-spacing:-8%;
+    letter-spacing:-13px;
     margin-left:-2px;
-    line-height:58%;
     
 }
 
@@ -100,7 +95,14 @@ h1 {
 h2{
     font-family: "Alumni Sans", sans-serif;
     font-weight:400;
-    font-size:1.5em;
+    font-size:1.25em;
+}
+.i {
+    float:left;
+    font-size:2.75em;
+    margin-right:10px;
+    margin-bottom:-25px;
+    margin-top:-13px;
 }
 .quote {
     padding:10px 0px;
